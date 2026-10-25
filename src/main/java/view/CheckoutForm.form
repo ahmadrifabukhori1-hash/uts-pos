@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Checkout"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+          <Component id="lblNama" min="-2" pref="110" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+          <Component id="txtNama" pref="200" max="32767" attributes="0"/>
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+          <Component id="lblCatatan" min="-2" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+          <Component id="lblTotal" min="-2" pref="110" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+          <Component id="txtTotal" pref="200" max="32767" attributes="0"/>
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+          <Component id="lblTunai" min="-2" pref="110" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+          <Component id="txtTunai" pref="200" max="32767" attributes="0"/>
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+          <Component id="lblKembalian" min="-2" pref="110" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+          <Component id="txtKembalian" pref="200" max="32767" attributes="0"/>
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+        </Group>
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+          <EmptySpace max="32767" attributes="0"/>
+          <Component id="btnHitung" min="-2" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+          <Component id="btnSelesai" min="-2" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+          <Component id="btnBatal" min="-2" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+        </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="3" attributes="0">
+            <Component id="lblNama" alignment="3" min="-2" max="-2" attributes="0"/>
+            <Component id="txtNama" alignment="3" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+          <Component id="lblCatatan" min="-2" max="-2" attributes="0"/>
+          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="3" attributes="0">
+            <Component id="lblTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+            <Component id="txtTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="3" attributes="0">
+            <Component id="lblTunai" alignment="3" min="-2" max="-2" attributes="0"/>
+            <Component id="txtTunai" alignment="3" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="3" attributes="0">
+            <Component id="lblKembalian" alignment="3" min="-2" max="-2" attributes="0"/>
+            <Component id="txtKembalian" alignment="3" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="3" attributes="0">
+            <Component id="btnHitung" alignment="3" min="-2" max="-2" attributes="0"/>
+            <Component id="btnSelesai" alignment="3" min="-2" max="-2" attributes="0"/>
+            <Component id="btnBatal" alignment="3" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+        </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblNama">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nama Pembeli:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNama">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCatatan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kosongkan nama pembeli untuk memakai nama &quot;Umum&quot;."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTotal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Belanja:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTotal">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTunai">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Uang Tunai:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTunai">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblKembalian">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kembalian:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtKembalian">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnHitung">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hitung Kembalian"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHitungActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSelesai">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Selesaikan Transaksi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSelesaiActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBatal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Batal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBatalActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
